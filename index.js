@@ -1,8 +1,8 @@
 var http = require("https");
 var fs = require("fs");
 const API = "https://sb3.micahlindley.com";
-const START = 1;
-const END = 100;
+const START = 100;
+const END = 101;
 
 let i = START;
 var download = function (method) {
